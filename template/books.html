@@ -6,6 +6,7 @@
     </header>
     <body>
         <div class='card-group'>
+          
             {% for book in list %}
               <div class="row" style="padding: 10px 20px;">
                 <div class="col-sm-4">
@@ -22,8 +23,9 @@
               </div>
               <br>
             {% endfor %}
+            
             </div>
             <p><a href=addNewBook><button type="button" class="btn btn-secondary btn-lg btn-block" style="display:scroll;bottom: 0px; right: 0px;">Add new book</button></a></p>
-            <!--<p><a href=/pygalexample/><button type="button" class="btn btn-secondary btn-lg btn-block" style="display:scroll;bottom: 0px; right: 0px;">Graph</button></a></p>-->            
+            <p><a href=/pygalexample/><button type="button" class="btn btn-secondary btn-lg btn-block" style="display:scroll;bottom: 0px; right: 0px;">Graph</button></a></p>            
     </body>
 </html>

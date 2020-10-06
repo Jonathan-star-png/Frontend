@@ -5,8 +5,15 @@
         <title>Title</title>
     </header>
     <body>
+      <script>
+        function alerta()
+        {
+          var mensaje;
+          var opcion=confirm("Datos almacenados con exito");
+        }
+      </script>
         <div class="row justify-content-center h-100">
-        <form id="formulario" name="formulario" action="http://localhost:8081/createBook" method="POST" style="width: 18rem ;" target="estatico">
+        <form id="formulario" name="formulario" action="http://localhost:8000/test" method="POST" style="width: 18rem ;">
             <div class="form-group"  >
               <label>Book title</label>
               <input type="text" class="form-control" id="bookT" name="Title" placeholder="Enter book title">
